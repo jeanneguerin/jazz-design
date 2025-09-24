@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mozilla+Text:wght@200..700&display=swap');
+
+html{
+	font-family: "Montserrat", sans-serif;
+}
+
+/* color */
+body{
+	/* background: linear-gradient(in oklch,rgb(238, 255, 0), rgb(0, 8, 255)); */
+}
+
+/* mise en page */
+
+
+body{
+	min-height: 100vh;
+	font-size: var(--size-base);
+	background-color: var(--jazz-jaune);}
+h1{
+	font-size: var(--size-xxxl);
+}
+/* Font Scale */
+:root{
+	--fs-sm: clamp(0.8rem, 0.17vi + 0.76rem, 0.89rem);
+	--fs-base: clamp(1rem, 0.34vi + 0.91rem, 1.19rem);
+	--fs-md: clamp(1.25rem, 0.61vi + 1.1rem, 1.58rem);
+	--fs-lg: clamp(1.56rem, 1vi + 1.31rem, 2.11rem);
+	--fs-xl: clamp(1.95rem, 1.56vi + 1.56rem, 2.81rem);
+	--fs-xxl: clamp(2.44rem, 2.38vi + 1.85rem, 3.75rem);
+	--fs-xxxl: clamp(3.05rem, 3.54vi + 2.17rem, 5rem);
+
+}
+
+p {letter-spacing: 0.02em;}
+h1{letter-spacing: -0.01em;}
+:root{
+--jazz-jaune:hsl( 58, 100%, 50%)}
+
+
