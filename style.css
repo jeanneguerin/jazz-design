@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Space+Mono:ital,wght@0,400;0,700&display=swap');
 
 :root {
-  --jazz-jaune: hsl(58, 100%, 50%);
   --fs-xl: clamp(3rem, 6vw + 1rem, 5rem);
   --fs-lg: clamp(2.2rem, 5vw + 0.5rem, 3.5rem);
+
 }
 
 body {
@@ -63,4 +63,92 @@ p {
   color: #000;
   letter-spacing: 0.02em;
   text-transform: uppercase;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Space+Mono:ital,wght@0,400;0,700&display=swap');
+
+:root {
+  --fs-xl: clamp(3rem, 6vw + 1rem, 5rem);
+  --fs-lg: clamp(2.2rem, 5vw + 0.5rem, 3.5rem);
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Space Mono", monospace;
+}
+
+.container {
+  text-align: left;
+  padding: 1rem;
+  max-width: 900px;
+}
+
+#Affiche {
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  margin-top: 1rem;
+  margin-bottom: 0.6rem;
+}
+
+p {
+  line-height: 1.1;
+  margin: 0.3rem 0;
+}
+
+.space-mono-regular {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: var(--fs-xl);
+  color: #000;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.infos-secondaires {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30pt;
+  color: #000;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.legende {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+  color: #000;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.color {
+  font-family: "Space Mono", monospace;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.color-box {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+
+.color-box.jaune {
+  background-color: hsl(60, 100%, 50%);
+}
+
+.color-box.bleu {
+  background-color: hsl(195, 100%, 50%);
 }
